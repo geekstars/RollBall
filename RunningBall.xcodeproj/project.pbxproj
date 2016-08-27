@@ -12,6 +12,8 @@
 		F59B70301D6FE18800012EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59B702E1D6FE18800012EE9 /* Main.storyboard */; };
 		F59B70321D6FE18800012EE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59B70311D6FE18800012EE9 /* Assets.xcassets */; };
 		F59B70351D6FE18800012EE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59B70331D6FE18800012EE9 /* LaunchScreen.storyboard */; };
+		F59B703E1D6FE1FA00012EE9 /* stadium.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B703D1D6FE1FA00012EE9 /* stadium.png */; };
+		F59B70441D6FE7D800012EE9 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = F59B70431D6FE7D800012EE9 /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F59B70311D6FE18800012EE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F59B70341D6FE18800012EE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F59B70361D6FE18800012EE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59B703D1D6FE1FA00012EE9 /* stadium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stadium.png; sourceTree = "<group>"; };
+		F59B70431D6FE7D800012EE9 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		F59B70291D6FE18800012EE9 /* RunningBall */ = {
 			isa = PBXGroup;
 			children = (
+				F59B703C1D6FE1EF00012EE9 /* images */,
 				F59B702A1D6FE18800012EE9 /* AppDelegate.swift */,
 				F59B702C1D6FE18800012EE9 /* ViewController.swift */,
 				F59B702E1D6FE18800012EE9 /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				F59B70361D6FE18800012EE9 /* Info.plist */,
 			);
 			path = RunningBall;
+			sourceTree = "<group>";
+		};
+		F59B703C1D6FE1EF00012EE9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F59B70431D6FE7D800012EE9 /* ball.png */,
+				F59B703D1D6FE1FA00012EE9 /* stadium.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +137,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F59B70351D6FE18800012EE9 /* LaunchScreen.storyboard in Resources */,
+				F59B70441D6FE7D800012EE9 /* ball.png in Resources */,
+				F59B703E1D6FE1FA00012EE9 /* stadium.png in Resources */,
 				F59B70321D6FE18800012EE9 /* Assets.xcassets in Resources */,
 				F59B70301D6FE18800012EE9 /* Main.storyboard in Resources */,
 			);
